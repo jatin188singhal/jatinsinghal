@@ -551,7 +551,9 @@
 }
 
 @media (max-width: 614px) {
-
+.vv{
+    margin-top: 8px;
+}
     .tom
     {
     background-color: #F4F8FF;

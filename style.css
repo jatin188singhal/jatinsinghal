@@ -1,0 +1,821 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800|Noto+Serif:400,400i,700,700i|Roboto:300,400,500,700,900&display=swap');
+
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+/*    border-radius: 35px;*/
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
+
+
+.back{
+    
+/*    background-color: #F4F8FF;*/
+}
+.card-title{
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+.csd{
+    color: #343434;
+}
+.lead a{
+    color: #9c9c9c;
+}
+.end{
+    font-size: 0.8rem;
+    color: #343434;
+    margin-top:5rem;
+    margin-bottom: 1.4rem;
+}
+
+
+.pol{
+    font-size: 1.2vw;
+    font-family: 'Open Sans', sans-serif;
+    color: #343434;
+    font-weight: 600;
+    
+}
+
+
+
+
+.vv{
+/*    color: #ffffff;*/
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 1vw;
+    min-width:3vw; 
+    border-color: #ffffff;
+     box-shadow: 0 0px 2px rgba(0,0,0,.5);
+    
+}
+.arrow{
+    max-height: 50px;
+    max-width: 50px;
+}
+.dd{
+    color: #343434;
+    opacity: 0.3;
+}
+.dd:hover{
+    opacity: 1;
+}
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.welcome {
+    align-content: center;
+    align-items: center;
+    vertical-align: middle;
+/*    padding-bottom: 25vh;*/
+}
+.welcome h1 {
+    color: #343434;
+    font-weight:800;
+  text-align: left;
+    text-decoration: none;
+  font-family: 'Open Sans',sans-serif;
+}
+.welcome h2 {
+    color: #343434;
+    font-weight:800;
+  text-align: left;
+    text-decoration: none;
+  font-family: 'Open Sans',sans-serif;
+    
+}
+.welcome h3 {
+    color: #343434;
+  text-align: left;
+    font-weight:800;
+    text-decoration: none;
+  font-family: 'Open Sans',sans-serif;
+}
+.welcome p {
+    color: #343434;
+  text-align: left;
+    text-decoration: none;
+    
+    font-weight:400;
+  font-family: 'Open Sans',sans-serif;
+}
+.shadow{
+    box-shadow: 0 4px 4px -2px rgba(230,230,230,1);
+}
+#navbar{
+    background-color: #ffffff;
+    text-align: center;
+    align-content: center;
+    
+/*    box-shadow: 0 4px 2px -2px rgba(0,0,0,.2);*/
+}
+
+#navbar a:hover {
+  color: #343434;
+    font-weight: 800;
+}
+#navbar a.active {
+  color: #343434;    
+ font-weight: 800;
+}
+.imgbox {
+            display: grid;
+            height: 100%;
+        }
+.social{
+    margin-top: 2vh;
+/*    font-size: 1rem;*/
+    
+}   
+
+.socia{
+/*    background-color: #343434;*/
+}
+
+.connectme{
+    color: #343434;
+    font-size: 1rem;
+    font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.center-fit {
+            max-width: 100%;
+            max-height: 100vh;
+            margin: auto;
+        }
+
+
+
+.aclass{
+    margin: 20px;
+    max-height: 15rem;
+    
+}
+
+/*
+.connect-l,
+.fa-linkedin-in,
+.fa-envelope{
+    color: #565656;
+}
+
+
+.connect-l:hover{
+    color: #1869FF;
+}
+
+
+.fa-envelope-l:hover{
+    color: #DC473A;
+}
+
+.fa-linkedin-in-l:hover{
+    color: #0077B7;
+}
+*/
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.circle-icon {
+    background: #d0d0d0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    vertical-align: middle;
+    padding: 12px;
+}
+.fa-envelope circle-icon: hover {
+    background: #343434;
+}
+
+.wr{
+    border-color: #ffffff;
+    margin-top:3vh;
+    margin-bottom: 1vh;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1), 0px 0px 5px rgba(0, 0, 0, 0.1);
+    
+    opacity: 0.85;
+}
+.ab{
+    border-color: #ffffff;
+    margin-top:0vh;
+    margin-bottom: 2vh;
+    padding: 2px;
+}
+.wr:hover{
+    box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.2), 0px 0px 13px rgba(0, 0, 0, 0.19);
+    opacity: 1;
+}
+
+.op{ 
+    
+    color: #343434;
+}
+
+.card-text
+    {
+    color: #343434;
+    }
+
+.scroll{
+    height: 12rem;
+    opacity: .6;
+    margin-bottom: 5vh;
+/*    padding-bottom: 10pxl;*/
+    
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+.leadi
+    {
+        color: #6c6c6c;
+    }
+
+/*---Media Queries --*/
+@media (max-width: 1992px) {
+    #navbar a {
+    
+  color: #343434;
+  text-align: center;
+  text-decoration: none;
+    font-weight: 500;
+  font-family: 'Open Sans', sans-serif;
+   
+    font-size: 19px;
+}
+    .abin{
+        max-height: 30vw;
+        max-width:30vw;
+    }
+    .abtop{
+    font-size: 1.5vw;
+    font-family: 'Open Sans', sans-serif;
+    color: #343434;
+    font-weight: 600;
+}
+.poli{
+    font-size: 1.2vw;
+    font-family: 'Open Sans', sans-serif;
+    color: #343434;
+    font-weight: 400;
+    
+}
+
+    .myinfo{
+    background-color: #F4F8FF;
+    
+}
+    .myphoto{
+        margin-right: 2vw;
+    max-height: 23vw;
+    max-width: 23vw;
+    
+}
+    .tom
+    {
+    background-color: #F4F8FF;
+    margin-top: 1vw;
+    }
+    .leadi
+    {
+    font-size: 1.3rem;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 3vw;
+    }
+    .card
+    {
+    margin-right: 6vh;
+    margin-left: 6vh;
+    }
+
+     .op
+    {
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    }
+    
+    .card-text
+    {
+    font-size: 1rem;    
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    }
+    .social a
+    {
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #6c6c6c;
+    padding-right: 2rem;
+    padding-top: 3rem;
+    }
+    .social a:hover{
+    color: #343434;
+}
+    .socia a
+    {
+    font-size: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #6c6c6c;
+    padding-right:1rem;
+    padding-left:1rem;
+    padding-top: 3rem;
+    }
+    .socia a:hover{
+    color: #343434;
+}
+    
+    
+    .work{
+    margin-left: 5vw;
+    margin-right:5vw;
+    margin-right:5vw;
+    
+        padding-top: 9vw;
+        }
+    div.welcome{
+    padding-left: 33%;
+     padding-top:15vh;
+        margin-bottom: 25vh;
+    }
+    div.welcome h1{
+        font-size:60px;
+    }
+     div.welcome h2{
+        font-size:45px;
+    }
+     div.welcome h3{
+        font-size:30px;
+    }
+    div.welcome p{
+        font-size:20px;
+    }
+    div.navbar
+    {
+        
+    padding-left: 30%;
+        padding-right: 30%;
+    }
+    div.navbar a{
+        
+         margin-right: 10px;
+            margin-left: 10px;
+    }
+  }
+
+@media (max-width: 1200px) {
+    .abtop{
+    font-size: 1.5vw;
+    font-family: 'Open Sans', sans-serif;
+    color: #343434;
+    font-weight: 600;
+}
+.poli{
+    font-size: 1.2vw;
+    font-family: 'Open Sans', sans-serif;
+    color: #343434;
+    font-weight: 400;
+    
+}
+
+  .myphoto{
+        margin-right: 2vw;
+    max-height: 23vw;
+    max-width: 23vw;
+    
+}
+    .tom
+    {
+    background-color: #F4F8FF;
+    margin-top: 0.8vw;
+    }
+    div.welcome{
+        padding-left: 30%;
+    }
+    div.welcome h1{
+        font-size:60px;
+    }
+     div.welcome h2{
+        font-size:45px;
+    }
+     div.welcome h3{
+        font-size:30px;
+    }
+    div.welcome p{
+        font-size:20px;
+    }
+  }
+
+
+@media (max-width: 950px) {
+    .abtop{
+    font-size: 2.5vw;
+    font-family: 'Open Sans', sans-serif;
+    color: #343434;
+    font-weight: 600;
+}
+.poli{
+    font-size: 2vw;
+    font-family: 'Open Sans', sans-serif;
+    color: #343434;
+    font-weight: 400;
+    
+}
+
+   .tom
+    {
+    background-color: #F4F8FF;
+    margin-top: 0.6vw;
+    }
+    div.welcome{
+        padding-left: 23%;
+    }
+    
+    .leadi
+    {
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 3vw;
+    }
+   
+     .op{
+    font-size: 1.3rem;
+    font-family: 'Open Sans', sans-serif;
+}
+    div.navbar
+    {
+        
+    padding-left: 15%;
+        padding-right: 15%;
+    }
+    div.navbar a{
+        
+         margin-right: 8px;
+            margin-left: 8px;
+    }
+  }
+
+@media (max-width: 768px) {
+    .abin{
+        max-height: 60vw;
+        max-width:60vw;
+        text-align: center;
+    }
+    .myphoto{
+        margin-right: 2vw;
+    max-height: 70vw;
+    max-width: 70vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    
+}
+    .tom
+    {
+    background-color: #F4F8FF;
+    margin-top: 0.5vw;
+    }
+   div.welcome{
+        padding-left: 20%;
+    }
+    div.welcome h1{
+        font-size:45px;
+    }
+     div.welcome h2{
+        font-size:35px;
+    }
+     div.welcome h3{
+        font-size:25px;
+    }
+    div.welcome p{
+        font-size:18px;
+    }
+     .leadi
+    {
+    font-size: 0.8rem;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 3vw;
+    }
+    .op{
+    font-size: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
+    }
+    .card-text
+    {
+    font-size: 0.8rem;    
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    }
+}
+
+@media (max-width: 614px) {
+
+    .tom
+    {
+    background-color: #F4F8FF;
+    margin-top: 0.5vw;
+    }
+    .social a
+    {
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #6c6c6c;
+/*    padding-left: 0.8rem;*/
+    padding-right: 1.6rem;
+    padding-top: 3rem;
+    }
+    .social a:hover{
+    color: #343434;
+}
+    .socia a
+    {
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #6c6c6c;
+/*    padding-left: 0.8rem;*/
+    padding-right: 0.8rem;
+        padding-left: 0.8rem;
+    padding-top: 3rem;
+    }
+    .socia a:hover{
+    color: #343434;
+}
+    div.welcome{
+        padding-left: 13%;
+        padding-top: 18vh;
+    }
+  }
+@media (max-width: 586px) {
+ 
+    .tom
+    {
+    background-color: #F4F8FF;
+    margin-top: 0.4vw;
+    }
+     .leadi
+    {
+    font-size: 0.8rem;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 2vw;
+    }
+     .wr{
+    margin-right: 2vh;
+        margin-left: 2vh;}
+   
+   div.welcome{
+        padding-left: 12%;
+    }
+    div.welcome p{
+        font-size:15px;
+    }
+    div.navbar
+    {
+        
+    padding-left: 6%;
+        padding-right: 6%;
+    }
+    div.navbar a{
+        
+         margin-right: 4px;
+            margin-left: 4px;
+    }
+}
+@media (max-width: 490px) {
+    .tom
+    {
+    background-color: #F4F8FF;
+    margin-top: 0.4vw;
+    }
+    ./*work{
+    margin-left: 3vh;
+    margin-right: 1vh;
+    margin-top: 8vh;
+}*/
+    div.welcome{
+        padding-left: 9%;
+        padding-top: 29vh;
+    
+        
+    }
+    
+    div.welcome h1{
+        font-size:37px;
+    }
+     div.welcome h2{
+        font-size:32px;
+    }
+     div.welcome h3{
+        font-size:22px;
+    }
+    div.welcome p{
+        font-size:13px;
+    }
+    .op{
+    font-size: 1rem;
+    font-family:'Open Sans', sans-serif;
+}
+  }
+@media (max-width: 409px) {
+    .tom
+    {
+    background-color: #F4F8FF;
+    margin-top: 0.4vw;
+    }
+     .wr{
+    margin-right: 1vh;
+        margin-left: 1vh;}
+    .note
+    {
+    margin-right: 1vh;
+    margin-left: 1vh;
+    }
+    div.welcome{
+        padding-left: 8%;
+        padding-top: 25vh;
+        margin-bottom: 20vh;
+    }
+    div.welcome h1{
+        font-size:34px;
+    }
+     div.welcome h2{
+        font-size:28px;
+    }
+     div.welcome h3{
+        font-size:19px;
+    }
+    div.welcome p{
+        font-size:3vw;
+    }
+     .card-text
+    {
+    font-size: 0.8rem;    
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    }
+    div.navbar
+    {
+        
+    padding-left: 1%;
+        padding-right: 1%;
+    }
+    div.navbar a{
+        
+         margin-right: 3px;
+            margin-left: 3px;
+    }
+  }
+@media (max-width: 350px) {
+    .tom
+    {
+    background-color: #F4F8FF;
+    margin-top: 0.3vw;
+    }
+    .work{
+    margin-left: 1vw;
+    margin-right:1vw;
+    margin-top: 8vw;
+}
+    div.welcome{
+        padding-left: 5%;
+    }
+    div.navbar
+    {
+        
+    padding-left: 1%;
+        padding-right: 1%;
+    }
+    div.navbar a{
+         margin-right: 0px;
+            margin-left: 0px;
+        
+    }
+    #navbar a {
+    
+   
+    font-size: 4vw;
+}
+  }
+
+
+
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+/*--- Fixed Background Image --*/
+figure {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  margin: 0!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#fixed {
+  background-image: url('img/mac.png');
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+
+
+
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+
+
+
+
+
+
+
